@@ -1,9 +1,12 @@
+*{
+    font-family: Arial, sans-serif; 
+}
 #caja_izquierda button {
     background-color: rgb(240, 68, 68);
     border-radius: 24px;
     color: white;
-    width: 150px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     border: none;
 }
 
@@ -11,14 +14,38 @@
     width: 804px;
     display: flex;
 }
-
 #caja_izquierda {
     width: 400px;
     height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center; 
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#container button {
+    background-color: rgb(240, 68, 68);
+    border-radius: 24px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+    text-align: center; 
 }
 
 #caja_derecha {
@@ -30,13 +57,9 @@
     align-items: center;
     color: white;
     background-color: rgb(240, 68, 68);
+    padding: 50px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
 }
 
-#pasos {
-    width: 350px;
-}
 
-#letritas {
-    color: darkblue;
-    font-weight: bold;
-}
